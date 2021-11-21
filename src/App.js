@@ -92,7 +92,9 @@ function App() {
       </div>
       <Container className="container-bg" fluid>
         {/* <Row> */}
-        <a href="https://miro.com/oauth/authorize/?response_type=code&client_id=3074457368020003533&redirect_uri=%2Fconfirm-app-install%2F" rel="noreferrer" target="_blank">Download it now</a>
+        <div id="breadContainer">
+          <a href="https://miro.com/oauth/authorize/?response_type=code&client_id=3074457368020003533&redirect_uri=%2Fconfirm-app-install%2F" rel="noreferrer" target="_blank">Download it now</a>
+        </div>
         {/* </Row> */}
       </Container>
     </>
