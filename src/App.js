@@ -1,6 +1,6 @@
 import "./App.css";
 import logo from "./logo.png";
-import { useSpring, animated } from "react-spring";
+
 // import { Container, Row } from "reactstrap";
 import { Container } from "reactstrap";
 import ParticlesBg from "particles-bg";
@@ -9,7 +9,7 @@ import React from "react";
 const LogoDisplay = ({ logo }) => {
   return (
     <div id="logoDiv">
-      <img id="logo" src={logo}></img>
+      <img id="logo" alt="Logo" src={logo}></img>
     </div>
   );
 };
