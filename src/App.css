@@ -7,13 +7,14 @@ body {
   padding: 5px;
 }
 #logo {
-  width: 90%;
+  width: 100%;
   margin: 3em auto;
 }
 
 #logoDiv {
   margin: 0 auto;
   margin-bottom: 0;
+  width: 70%;
   /* width: 500px; */
 }
 
@@ -69,6 +70,9 @@ body {
     padding-bottom: 3em;
     padding-left: 1em;
     padding-right: 1em;
+  }
+  h1 {
+    font-size: 2em !important;
   }
 }
 
