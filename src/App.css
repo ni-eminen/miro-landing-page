@@ -11,6 +11,11 @@ body {
   margin: 3em auto;
 }
 
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 #logoDiv {
   margin: 0 auto;
   margin-bottom: 0;
@@ -52,6 +57,7 @@ body {
   padding-left: 5em;
   margin-left: 2.5em;
   margin-right: 2.5em;
+  width: 100%;
 }
 #breadContainer {
   /* width: 640px; */
@@ -66,10 +72,11 @@ body {
   .container-bg {
     margin-left: 0.5em;
     margin-right: 0.5em;
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
+    width: 100%;
   }
   h1 {
     font-size: 2em !important;
