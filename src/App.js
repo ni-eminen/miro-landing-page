@@ -34,8 +34,8 @@ const Boop = ({ rotation = 0, timing = 300, children }) => {
     transform: isBooped ? `scale(1.05)` : `scale(1)`,
     transition: `transform ${timing}ms`,
     // margin: "5em",
-    marginBottom: "5em",
-    marginTop: "5em",
+    marginBottom: "2em",
+    marginTop: "2em",
     marginLeft: "0",
     marginRight: "0",
     minWidth: "100px",
@@ -70,6 +70,7 @@ function App() {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
   return (
     <>
+    <div id="wrapper">
       <LogoDisplay logo={logo}></LogoDisplay>
       <Boop rotation={20} timing={200}>
         <Container className="container-bg" fluid>
@@ -87,14 +88,15 @@ function App() {
           {/* </Row> */}
         </Container>
       </Boop>
+        <Container className="container-bg" style={{textAlign: "center"}} fluid>
+          {/* <Row> */}
+          <a href="https://www.youtube.com/" style={{marginRight: "40px", width: "640px"}}>www.youtube.com</a>
+          {/* </Row> */}
+        </Container>
       <div id="bg">
         <ParticlesBg type="polygon" bg={true} />
       </div>
-      <Container className="container-bg" fluid>
-        {/* <Row> */}
-        <a href="https://www.youtube.com/">https://www.youtube.com/</a>
-        {/* </Row> */}
-      </Container>
+      </div>
     </>
   );
 }
