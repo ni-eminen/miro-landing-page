@@ -1,6 +1,6 @@
 import "./App.css";
 import logo from "./logo.png";
-import { useSpring, animated } from "react-spring";
+
 // import { Container, Row } from "reactstrap";
 import { Container } from "reactstrap";
 import ParticlesBg from "particles-bg";
@@ -9,7 +9,7 @@ import React from "react";
 const LogoDisplay = ({ logo }) => {
   return (
     <div id="logoDiv">
-      <img id="logo" src={logo}></img>
+      <img id="logo" alt="Logo" src={logo}></img>
     </div>
   );
 };
@@ -92,7 +92,7 @@ function App() {
       </div>
       <Container className="container-bg" fluid>
         {/* <Row> */}
-        <a href="https://www.youtube.com/">https://www.youtube.com/</a>
+        <a href="https://miro.com/oauth/authorize/?response_type=code&client_id=3074457368020003533&redirect_uri=%2Fconfirm-app-install%2F" rel="noreferrer" target="_blank">Download it now</a>
         {/* </Row> */}
       </Container>
     </>
