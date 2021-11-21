@@ -1,5 +1,5 @@
 import "./App.css";
-import logo from "./logo.png";
+import logo from "./miroables_logo_blue.png";
 
 // import { Container, Row } from "reactstrap";
 import { Container, List} from "reactstrap";
@@ -71,7 +71,9 @@ function App() {
   return (
     <>
     <div id="wrapper">
+    <Boop rotation={20} timing={200}>
       <LogoDisplay logo={logo}></LogoDisplay>
+    </Boop>
       <Boop rotation={20} timing={200}>
         <Container className="container-bg" fluid>
           {/* <Row> */}
